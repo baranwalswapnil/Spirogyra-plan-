@@ -12,14 +12,13 @@
     <!-- Custom Cursor -->
     <div class="custom-cursor" id="cursor"></div>
 
-    <!-- Festival Popup Modal -->
-    <div id="festival-popup" class="festival-modal">
+    <!-- Coming Soon Popup Modal -->
+    <div id="coming-soon-popup" class="festival-modal" style="display: flex;">
         <div class="modal-content">
-            <span class="modal-emoji" id="modalEmoji">🎉</span>
-            <h2 class="modal-title" id="modalTitle">Festival Name</h2>
-            <p class="modal-date" id="modalDate">Dates go here</p>
-            <p style="margin-bottom: 20px; color: #555;">Welcome to the festival theme! Enjoy the vibe!</p>
-            <button class="close-btn" onclick="closePopup()">Let's Celebrate! 🚀</button>
+            <span class="modal-emoji">⏳</span>
+            <h2 class="modal-title">Coming soon</h2>
+            <p style="margin-bottom: 20px; color: #555;">My Wardrobe is getting an awesome update. Stay tuned!</p>
+            <button class="close-btn" onclick="document.getElementById('coming-soon-popup').style.display='none';">Got it!</button>
         </div>
     </div>
 
